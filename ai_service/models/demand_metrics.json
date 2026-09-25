@@ -1,0 +1,45 @@
+{
+  "model_name": "XGBoost Regressor",
+  "algorithm": "xgboost.XGBRegressor",
+  "total_records": 2160,
+  "train_records": 1728,
+  "test_records": 432,
+  "mae_m3h": 22.79,
+  "rmse_m3h": 31.07,
+  "r2_score": 0.9809,
+  "mape_percent": 3.75,
+  "feature_importances": [
+    {
+      "feature": "lag_1",
+      "importance": 0.4435
+    },
+    {
+      "feature": "lag_24",
+      "importance": 0.2338
+    },
+    {
+      "feature": "hour",
+      "importance": 0.0918
+    },
+    {
+      "feature": "lag_168",
+      "importance": 0.0895
+    },
+    {
+      "feature": "zone_ZONE_C",
+      "importance": 0.0501
+    },
+    {
+      "feature": "rolling_mean_24h",
+      "importance": 0.0198
+    },
+    {
+      "feature": "zone_ZONE_B",
+      "importance": 0.0168
+    },
+    {
+      "feature": "rolling_mean_6h",
+      "importance": 0.0166
+    }
+  ]
+}

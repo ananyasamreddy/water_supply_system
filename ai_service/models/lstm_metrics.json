@@ -1,0 +1,40 @@
+{
+  "model_name": "Time-Dependent Sequence Failure Classifier (24h Temporal Window)",
+  "architecture": "Recurrent Temporal Sequence Formulation",
+  "sequence_length_hours": 24,
+  "input_features": [
+    "flow_rate",
+    "velocity",
+    "pressure_transients",
+    "velocity_surge_delta"
+  ],
+  "total_sequences": 360,
+  "train_samples": 270,
+  "test_samples": 90,
+  "test_accuracy": 0.6556,
+  "confusion_matrix": {
+    "labels": [
+      "Low Risk",
+      "Medium Risk",
+      "High Risk"
+    ],
+    "matrix": [
+      [
+        37,
+        7,
+        3
+      ],
+      [
+        12,
+        11,
+        2
+      ],
+      [
+        5,
+        2,
+        11
+      ]
+    ]
+  },
+  "academic_note": "Optional temporal extension per section 8. Primary model remains Random Forest."
+}

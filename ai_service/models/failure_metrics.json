@@ -1,0 +1,99 @@
+{
+  "model_name": "Random Forest Classifier",
+  "algorithm": "ensemble.RandomForestClassifier",
+  "total_samples": 500,
+  "train_samples": 375,
+  "test_samples": 125,
+  "overall_accuracy": 0.904,
+  "classes": [
+    "Low Risk",
+    "Medium Risk",
+    "High Risk"
+  ],
+  "per_class_metrics": {
+    "Low Risk": {
+      "precision": 0.95,
+      "recall": 0.9344,
+      "f1_score": 0.9421,
+      "test_support": 61
+    },
+    "Medium Risk": {
+      "precision": 0.8333,
+      "recall": 0.8333,
+      "f1_score": 0.8333,
+      "test_support": 36
+    },
+    "High Risk": {
+      "precision": 0.8966,
+      "recall": 0.9286,
+      "f1_score": 0.9123,
+      "test_support": 28
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Low Risk",
+      "Medium Risk",
+      "High Risk"
+    ],
+    "matrix": [
+      [
+        57,
+        4,
+        0
+      ],
+      [
+        3,
+        30,
+        3
+      ],
+      [
+        0,
+        2,
+        26
+      ]
+    ]
+  },
+  "top_feature_importances": [
+    {
+      "feature": "age_years",
+      "importance": 0.2745
+    },
+    {
+      "feature": "condition_score",
+      "importance": 0.1452
+    },
+    {
+      "feature": "material_Cast Iron",
+      "importance": 0.1432
+    },
+    {
+      "feature": "previous_failures",
+      "importance": 0.1283
+    },
+    {
+      "feature": "material_Ductile Iron",
+      "importance": 0.0569
+    },
+    {
+      "feature": "velocity_variance",
+      "importance": 0.0369
+    },
+    {
+      "feature": "soil_corrosivity",
+      "importance": 0.0367
+    },
+    {
+      "feature": "mean_velocity_ms",
+      "importance": 0.0336
+    },
+    {
+      "feature": "material_HDPE",
+      "importance": 0.0307
+    },
+    {
+      "feature": "pressure_cycles_day",
+      "importance": 0.0288
+    }
+  ]
+}

@@ -1,0 +1,4547 @@
+{
+  "type": "FeatureCollection",
+  "name": "SmartWaterNetwork_Net3",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.465275,
+            17.410418
+          ],
+          [
+            78.47523,
+            17.410709
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_101",
+        "component_type": "PIPELINE",
+        "start_node": "J_101",
+        "end_node": "J_102",
+        "length_m": 1055.0,
+        "diameter_mm": 600,
+        "roughness_c": 85,
+        "material": "Cast Iron",
+        "installation_year": 1991,
+        "age_years": 35,
+        "condition": 3,
+        "previous_failures": 2,
+        "criticality": 5,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.465275,
+            17.410418
+          ],
+          [
+            78.467011,
+            17.404042
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_102",
+        "component_type": "PIPELINE",
+        "start_node": "J_101",
+        "end_node": "J_108",
+        "length_m": 731.2,
+        "diameter_mm": 250,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2007,
+        "age_years": 19,
+        "condition": 3,
+        "previous_failures": 1,
+        "criticality": 2,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.47523,
+            17.410709
+          ],
+          [
+            78.481289,
+            17.409766
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_103",
+        "component_type": "PIPELINE",
+        "start_node": "J_102",
+        "end_node": "J_103",
+        "length_m": 650.3,
+        "diameter_mm": 150,
+        "roughness_c": 108,
+        "material": "Ductile Iron",
+        "installation_year": 1994,
+        "age_years": 32,
+        "condition": 3,
+        "previous_failures": 3,
+        "criticality": 3,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.47523,
+            17.410709
+          ],
+          [
+            78.476119,
+            17.403109
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_104",
+        "component_type": "PIPELINE",
+        "start_node": "J_102",
+        "end_node": "J_109",
+        "length_m": 848.8,
+        "diameter_mm": 400,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2003,
+        "age_years": 23,
+        "condition": 3,
+        "previous_failures": 0,
+        "criticality": 4,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.481289,
+            17.409766
+          ],
+          [
+            78.489797,
+            17.40858
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_105",
+        "component_type": "PIPELINE",
+        "start_node": "J_103",
+        "end_node": "J_104",
+        "length_m": 910.8,
+        "diameter_mm": 300,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2016,
+        "age_years": 10,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 4,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.481289,
+            17.409766
+          ],
+          [
+            78.483056,
+            17.403988
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_106",
+        "component_type": "PIPELINE",
+        "start_node": "J_103",
+        "end_node": "J_110",
+        "length_m": 668.1,
+        "diameter_mm": 600,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 1997,
+        "age_years": 29,
+        "condition": 4,
+        "previous_failures": 3,
+        "criticality": 5,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.489797,
+            17.40858
+          ],
+          [
+            78.498968,
+            17.409161
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_107",
+        "component_type": "PIPELINE",
+        "start_node": "J_104",
+        "end_node": "J_105",
+        "length_m": 973.6,
+        "diameter_mm": 200,
+        "roughness_c": 140,
+        "material": "PVC",
+        "installation_year": 2014,
+        "age_years": 12,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 2,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.489797,
+            17.40858
+          ],
+          [
+            78.489337,
+            17.403614
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_108",
+        "component_type": "PIPELINE",
+        "start_node": "J_104",
+        "end_node": "J_111",
+        "length_m": 553.4,
+        "diameter_mm": 150,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2013,
+        "age_years": 13,
+        "condition": 4,
+        "previous_failures": 2,
+        "criticality": 2,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.498968,
+            17.409161
+          ],
+          [
+            78.507294,
+            17.410917
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_109",
+        "component_type": "PIPELINE",
+        "start_node": "J_105",
+        "end_node": "J_106",
+        "length_m": 903.2,
+        "diameter_mm": 250,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 1996,
+        "age_years": 30,
+        "condition": 3,
+        "previous_failures": 1,
+        "criticality": 2,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.498968,
+            17.409161
+          ],
+          [
+            78.497898,
+            17.401739
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_110",
+        "component_type": "PIPELINE",
+        "start_node": "J_105",
+        "end_node": "J_112",
+        "length_m": 831.6,
+        "diameter_mm": 200,
+        "roughness_c": 81,
+        "material": "Cast Iron",
+        "installation_year": 1993,
+        "age_years": 33,
+        "condition": 3,
+        "previous_failures": 2,
+        "criticality": 3,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.507294,
+            17.410917
+          ],
+          [
+            78.506294,
+            17.403407
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_111",
+        "component_type": "PIPELINE",
+        "start_node": "J_106",
+        "end_node": "J_113",
+        "length_m": 840.3,
+        "diameter_mm": 150,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2011,
+        "age_years": 15,
+        "condition": 4,
+        "previous_failures": 0,
+        "criticality": 3,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.45821,
+            17.404372
+          ],
+          [
+            78.467011,
+            17.404042
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_112",
+        "component_type": "PIPELINE",
+        "start_node": "J_107",
+        "end_node": "J_108",
+        "length_m": 933.0,
+        "diameter_mm": 200,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2008,
+        "age_years": 18,
+        "condition": 5,
+        "previous_failures": 1,
+        "criticality": 2,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.467011,
+            17.404042
+          ],
+          [
+            78.476119,
+            17.403109
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_113",
+        "component_type": "PIPELINE",
+        "start_node": "J_108",
+        "end_node": "J_109",
+        "length_m": 970.3,
+        "diameter_mm": 300,
+        "roughness_c": 90,
+        "material": "Cast Iron",
+        "installation_year": 1972,
+        "age_years": 54,
+        "condition": 3,
+        "previous_failures": 4,
+        "criticality": 4,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.467011,
+            17.404042
+          ],
+          [
+            78.46712,
+            17.397469
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_114",
+        "component_type": "PIPELINE",
+        "start_node": "J_108",
+        "end_node": "J_116",
+        "length_m": 729.7,
+        "diameter_mm": 250,
+        "roughness_c": 108,
+        "material": "Ductile Iron",
+        "installation_year": 1992,
+        "age_years": 34,
+        "condition": 3,
+        "previous_failures": 1,
+        "criticality": 3,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.476119,
+            17.403109
+          ],
+          [
+            78.483056,
+            17.403988
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_115",
+        "component_type": "PIPELINE",
+        "start_node": "J_109",
+        "end_node": "J_110",
+        "length_m": 741.3,
+        "diameter_mm": 150,
+        "roughness_c": 82,
+        "material": "Cast Iron",
+        "installation_year": 1993,
+        "age_years": 33,
+        "condition": 4,
+        "previous_failures": 3,
+        "criticality": 3,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.476119,
+            17.403109
+          ],
+          [
+            78.475528,
+            17.397029
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_116",
+        "component_type": "PIPELINE",
+        "start_node": "J_109",
+        "end_node": "J_117",
+        "length_m": 677.8,
+        "diameter_mm": 150,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2005,
+        "age_years": 21,
+        "condition": 3,
+        "previous_failures": 0,
+        "criticality": 2,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.483056,
+            17.403988
+          ],
+          [
+            78.489337,
+            17.403614
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_117",
+        "component_type": "PIPELINE",
+        "start_node": "J_110",
+        "end_node": "J_111",
+        "length_m": 666.6,
+        "diameter_mm": 500,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2009,
+        "age_years": 17,
+        "condition": 3,
+        "previous_failures": 1,
+        "criticality": 5,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.483056,
+            17.403988
+          ],
+          [
+            78.482003,
+            17.395446
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_118",
+        "component_type": "PIPELINE",
+        "start_node": "J_110",
+        "end_node": "J_118",
+        "length_m": 954.7,
+        "diameter_mm": 400,
+        "roughness_c": 90,
+        "material": "Steel",
+        "installation_year": 2003,
+        "age_years": 23,
+        "condition": 4,
+        "previous_failures": 1,
+        "criticality": 4,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.489337,
+            17.403614
+          ],
+          [
+            78.497898,
+            17.401739
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_119",
+        "component_type": "PIPELINE",
+        "start_node": "J_111",
+        "end_node": "J_112",
+        "length_m": 930.4,
+        "diameter_mm": 150,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 1996,
+        "age_years": 30,
+        "condition": 2,
+        "previous_failures": 2,
+        "criticality": 3,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.489337,
+            17.403614
+          ],
+          [
+            78.490144,
+            17.397129
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_120",
+        "component_type": "PIPELINE",
+        "start_node": "J_111",
+        "end_node": "J_119",
+        "length_m": 724.9,
+        "diameter_mm": 200,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2016,
+        "age_years": 10,
+        "condition": 4,
+        "previous_failures": 0,
+        "criticality": 3,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.497898,
+            17.401739
+          ],
+          [
+            78.506294,
+            17.403407
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_121",
+        "component_type": "PIPELINE",
+        "start_node": "J_112",
+        "end_node": "J_113",
+        "length_m": 908.5,
+        "diameter_mm": 250,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 1998,
+        "age_years": 28,
+        "condition": 3,
+        "previous_failures": 3,
+        "criticality": 2,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.497898,
+            17.401739
+          ],
+          [
+            78.498577,
+            17.397244
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_122",
+        "component_type": "PIPELINE",
+        "start_node": "J_112",
+        "end_node": "J_120",
+        "length_m": 504.1,
+        "diameter_mm": 500,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2003,
+        "age_years": 23,
+        "condition": 5,
+        "previous_failures": 2,
+        "criticality": 5,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.506294,
+            17.403407
+          ],
+          [
+            78.51601,
+            17.402301
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_123",
+        "component_type": "PIPELINE",
+        "start_node": "J_113",
+        "end_node": "J_114",
+        "length_m": 1036.5,
+        "diameter_mm": 300,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2015,
+        "age_years": 11,
+        "condition": 4,
+        "previous_failures": 0,
+        "criticality": 4,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.506294,
+            17.403407
+          ],
+          [
+            78.505988,
+            17.396184
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_124",
+        "component_type": "PIPELINE",
+        "start_node": "J_113",
+        "end_node": "J_121",
+        "length_m": 802.4,
+        "diameter_mm": 250,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 1999,
+        "age_years": 27,
+        "condition": 3,
+        "previous_failures": 1,
+        "criticality": 3,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.51601,
+            17.402301
+          ],
+          [
+            78.513858,
+            17.395698
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_125",
+        "component_type": "PIPELINE",
+        "start_node": "J_114",
+        "end_node": "J_122",
+        "length_m": 767.6,
+        "diameter_mm": 150,
+        "roughness_c": 84,
+        "material": "Cast Iron",
+        "installation_year": 1970,
+        "age_years": 56,
+        "condition": 2,
+        "previous_failures": 4,
+        "criticality": 3,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.459387,
+            17.395013
+          ],
+          [
+            78.46712,
+            17.397469
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_126",
+        "component_type": "PIPELINE",
+        "start_node": "J_115",
+        "end_node": "J_116",
+        "length_m": 863.3,
+        "diameter_mm": 300,
+        "roughness_c": 90,
+        "material": "Steel",
+        "installation_year": 2010,
+        "age_years": 16,
+        "condition": 4,
+        "previous_failures": 1,
+        "criticality": 4,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.459387,
+            17.395013
+          ],
+          [
+            78.457341,
+            17.387773
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_127",
+        "component_type": "PIPELINE",
+        "start_node": "J_115",
+        "end_node": "J_123",
+        "length_m": 832.4,
+        "diameter_mm": 400,
+        "roughness_c": 80,
+        "material": "Steel",
+        "installation_year": 1990,
+        "age_years": 36,
+        "condition": 2,
+        "previous_failures": 2,
+        "criticality": 4,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.46712,
+            17.397469
+          ],
+          [
+            78.475528,
+            17.397029
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_128",
+        "component_type": "PIPELINE",
+        "start_node": "J_116",
+        "end_node": "J_117",
+        "length_m": 892.0,
+        "diameter_mm": 500,
+        "roughness_c": 83,
+        "material": "Cast Iron",
+        "installation_year": 1985,
+        "age_years": 41,
+        "condition": 2,
+        "previous_failures": 3,
+        "criticality": 5,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.46712,
+            17.397469
+          ],
+          [
+            78.466466,
+            17.389876
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_129",
+        "component_type": "PIPELINE",
+        "start_node": "J_116",
+        "end_node": "J_124",
+        "length_m": 845.7,
+        "diameter_mm": 150,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2003,
+        "age_years": 23,
+        "condition": 4,
+        "previous_failures": 0,
+        "criticality": 2,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.475528,
+            17.397029
+          ],
+          [
+            78.482003,
+            17.395446
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_130",
+        "component_type": "PIPELINE",
+        "start_node": "J_117",
+        "end_node": "J_118",
+        "length_m": 708.0,
+        "diameter_mm": 200,
+        "roughness_c": 106,
+        "material": "Ductile Iron",
+        "installation_year": 1992,
+        "age_years": 34,
+        "condition": 3,
+        "previous_failures": 2,
+        "criticality": 3,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.475528,
+            17.397029
+          ],
+          [
+            78.474787,
+            17.390488
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_131",
+        "component_type": "PIPELINE",
+        "start_node": "J_117",
+        "end_node": "J_125",
+        "length_m": 730.3,
+        "diameter_mm": 200,
+        "roughness_c": 80,
+        "material": "Cast Iron",
+        "installation_year": 1972,
+        "age_years": 54,
+        "condition": 2,
+        "previous_failures": 4,
+        "criticality": 3,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.482003,
+            17.395446
+          ],
+          [
+            78.490144,
+            17.397129
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_132",
+        "component_type": "PIPELINE",
+        "start_node": "J_118",
+        "end_node": "J_119",
+        "length_m": 882.4,
+        "diameter_mm": 200,
+        "roughness_c": 140,
+        "material": "PVC",
+        "installation_year": 2021,
+        "age_years": 5,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 3,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.482003,
+            17.395446
+          ],
+          [
+            78.483362,
+            17.387534
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_133",
+        "component_type": "PIPELINE",
+        "start_node": "J_118",
+        "end_node": "J_126",
+        "length_m": 890.0,
+        "diameter_mm": 250,
+        "roughness_c": 108,
+        "material": "Ductile Iron",
+        "installation_year": 1992,
+        "age_years": 34,
+        "condition": 2,
+        "previous_failures": 2,
+        "criticality": 3,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.490144,
+            17.397129
+          ],
+          [
+            78.498577,
+            17.397244
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_134",
+        "component_type": "PIPELINE",
+        "start_node": "J_119",
+        "end_node": "J_120",
+        "length_m": 893.4,
+        "diameter_mm": 400,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2010,
+        "age_years": 16,
+        "condition": 4,
+        "previous_failures": 0,
+        "criticality": 4,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.490144,
+            17.397129
+          ],
+          [
+            78.491123,
+            17.3883
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_135",
+        "component_type": "PIPELINE",
+        "start_node": "J_119",
+        "end_node": "J_127",
+        "length_m": 985.5,
+        "diameter_mm": 750,
+        "roughness_c": 105,
+        "material": "Ductile Iron",
+        "installation_year": 1995,
+        "age_years": 31,
+        "condition": 4,
+        "previous_failures": 2,
+        "criticality": 5,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.498577,
+            17.397244
+          ],
+          [
+            78.505988,
+            17.396184
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_136",
+        "component_type": "PIPELINE",
+        "start_node": "J_120",
+        "end_node": "J_121",
+        "length_m": 793.8,
+        "diameter_mm": 150,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2018,
+        "age_years": 8,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 2,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.498577,
+            17.397244
+          ],
+          [
+            78.500061,
+            17.388861
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_137",
+        "component_type": "PIPELINE",
+        "start_node": "J_120",
+        "end_node": "J_128",
+        "length_m": 943.7,
+        "diameter_mm": 400,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2004,
+        "age_years": 22,
+        "condition": 4,
+        "previous_failures": 1,
+        "criticality": 4,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.505988,
+            17.396184
+          ],
+          [
+            78.513858,
+            17.395698
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_138",
+        "component_type": "PIPELINE",
+        "start_node": "J_121",
+        "end_node": "J_122",
+        "length_m": 835.4,
+        "diameter_mm": 300,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2006,
+        "age_years": 20,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 4,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.505988,
+            17.396184
+          ],
+          [
+            78.505736,
+            17.389002
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_139",
+        "component_type": "PIPELINE",
+        "start_node": "J_121",
+        "end_node": "J_129",
+        "length_m": 797.6,
+        "diameter_mm": 150,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2021,
+        "age_years": 5,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 2,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.513858,
+            17.395698
+          ],
+          [
+            78.515117,
+            17.388395
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_140",
+        "component_type": "PIPELINE",
+        "start_node": "J_122",
+        "end_node": "J_130",
+        "length_m": 821.5,
+        "diameter_mm": 150,
+        "roughness_c": 81,
+        "material": "Cast Iron",
+        "installation_year": 1981,
+        "age_years": 45,
+        "condition": 3,
+        "previous_failures": 2,
+        "criticality": 3,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.457341,
+            17.387773
+          ],
+          [
+            78.466466,
+            17.389876
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_141",
+        "component_type": "PIPELINE",
+        "start_node": "J_123",
+        "end_node": "J_124",
+        "length_m": 994.4,
+        "diameter_mm": 250,
+        "roughness_c": 140,
+        "material": "PVC",
+        "installation_year": 2015,
+        "age_years": 11,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 2,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.457341,
+            17.387773
+          ],
+          [
+            78.458818,
+            17.382788
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_142",
+        "component_type": "PIPELINE",
+        "start_node": "J_123",
+        "end_node": "J_131",
+        "length_m": 575.0,
+        "diameter_mm": 150,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2015,
+        "age_years": 11,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.466466,
+            17.389876
+          ],
+          [
+            78.474787,
+            17.390488
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_143",
+        "component_type": "PIPELINE",
+        "start_node": "J_124",
+        "end_node": "J_125",
+        "length_m": 884.1,
+        "diameter_mm": 200,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2013,
+        "age_years": 13,
+        "condition": 5,
+        "previous_failures": 1,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.474787,
+            17.390488
+          ],
+          [
+            78.483362,
+            17.387534
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_144",
+        "component_type": "PIPELINE",
+        "start_node": "J_125",
+        "end_node": "J_126",
+        "length_m": 965.7,
+        "diameter_mm": 250,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2014,
+        "age_years": 12,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 2,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.474787,
+            17.390488
+          ],
+          [
+            78.475695,
+            17.383136
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_145",
+        "component_type": "PIPELINE",
+        "start_node": "J_125",
+        "end_node": "J_133",
+        "length_m": 821.7,
+        "diameter_mm": 250,
+        "roughness_c": 140,
+        "material": "PVC",
+        "installation_year": 2011,
+        "age_years": 15,
+        "condition": 5,
+        "previous_failures": 2,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.483362,
+            17.387534
+          ],
+          [
+            78.491123,
+            17.3883
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_146",
+        "component_type": "PIPELINE",
+        "start_node": "J_126",
+        "end_node": "J_127",
+        "length_m": 826.5,
+        "diameter_mm": 300,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2013,
+        "age_years": 13,
+        "condition": 4,
+        "previous_failures": 2,
+        "criticality": 4,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.483362,
+            17.387534
+          ],
+          [
+            78.484041,
+            17.383134
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_147",
+        "component_type": "PIPELINE",
+        "start_node": "J_126",
+        "end_node": "J_134",
+        "length_m": 493.7,
+        "diameter_mm": 250,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2023,
+        "age_years": 3,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.491123,
+            17.3883
+          ],
+          [
+            78.500061,
+            17.388861
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_148",
+        "component_type": "PIPELINE",
+        "start_node": "J_127",
+        "end_node": "J_128",
+        "length_m": 948.8,
+        "diameter_mm": 250,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2022,
+        "age_years": 4,
+        "condition": 4,
+        "previous_failures": 0,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.491123,
+            17.3883
+          ],
+          [
+            78.491482,
+            17.380708
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_149",
+        "component_type": "PIPELINE",
+        "start_node": "J_127",
+        "end_node": "J_135",
+        "length_m": 843.6,
+        "diameter_mm": 200,
+        "roughness_c": 81,
+        "material": "Cast Iron",
+        "installation_year": 1979,
+        "age_years": 47,
+        "condition": 2,
+        "previous_failures": 5,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.500061,
+            17.388861
+          ],
+          [
+            78.505736,
+            17.389002
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_150",
+        "component_type": "PIPELINE",
+        "start_node": "J_128",
+        "end_node": "J_129",
+        "length_m": 601.4,
+        "diameter_mm": 150,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2011,
+        "age_years": 15,
+        "condition": 4,
+        "previous_failures": 1,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.500061,
+            17.388861
+          ],
+          [
+            78.498849,
+            17.381926
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_151",
+        "component_type": "PIPELINE",
+        "start_node": "J_128",
+        "end_node": "J_136",
+        "length_m": 780.4,
+        "diameter_mm": 250,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2006,
+        "age_years": 20,
+        "condition": 4,
+        "previous_failures": 2,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.505736,
+            17.389002
+          ],
+          [
+            78.515117,
+            17.388395
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_152",
+        "component_type": "PIPELINE",
+        "start_node": "J_129",
+        "end_node": "J_130",
+        "length_m": 996.0,
+        "diameter_mm": 250,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2017,
+        "age_years": 9,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 2,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.505736,
+            17.389002
+          ],
+          [
+            78.505835,
+            17.381769
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_153",
+        "component_type": "PIPELINE",
+        "start_node": "J_129",
+        "end_node": "J_137",
+        "length_m": 802.9,
+        "diameter_mm": 200,
+        "roughness_c": 140,
+        "material": "PVC",
+        "installation_year": 2007,
+        "age_years": 19,
+        "condition": 4,
+        "previous_failures": 2,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.515117,
+            17.388395
+          ],
+          [
+            78.514135,
+            17.381103
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_154",
+        "component_type": "PIPELINE",
+        "start_node": "J_130",
+        "end_node": "J_138",
+        "length_m": 816.1,
+        "diameter_mm": 300,
+        "roughness_c": 87,
+        "material": "Cast Iron",
+        "installation_year": 1972,
+        "age_years": 54,
+        "condition": 2,
+        "previous_failures": 4,
+        "criticality": 4,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.458818,
+            17.382788
+          ],
+          [
+            78.466172,
+            17.380502
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_155",
+        "component_type": "PIPELINE",
+        "start_node": "J_131",
+        "end_node": "J_132",
+        "length_m": 819.3,
+        "diameter_mm": 150,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2017,
+        "age_years": 9,
+        "condition": 4,
+        "previous_failures": 0,
+        "criticality": 2,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.458818,
+            17.382788
+          ],
+          [
+            78.458753,
+            17.374814
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_156",
+        "component_type": "PIPELINE",
+        "start_node": "J_131",
+        "end_node": "J_139",
+        "length_m": 885.1,
+        "diameter_mm": 150,
+        "roughness_c": 103,
+        "material": "Ductile Iron",
+        "installation_year": 1992,
+        "age_years": 34,
+        "condition": 2,
+        "previous_failures": 1,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.466172,
+            17.380502
+          ],
+          [
+            78.475695,
+            17.383136
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_157",
+        "component_type": "PIPELINE",
+        "start_node": "J_132",
+        "end_node": "J_133",
+        "length_m": 1050.3,
+        "diameter_mm": 400,
+        "roughness_c": 90,
+        "material": "Steel",
+        "installation_year": 2004,
+        "age_years": 22,
+        "condition": 3,
+        "previous_failures": 1,
+        "criticality": 4,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.466172,
+            17.380502
+          ],
+          [
+            78.466965,
+            17.374514
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_158",
+        "component_type": "PIPELINE",
+        "start_node": "J_132",
+        "end_node": "J_140",
+        "length_m": 670.0,
+        "diameter_mm": 400,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2018,
+        "age_years": 8,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 4,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.475695,
+            17.383136
+          ],
+          [
+            78.484041,
+            17.383134
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_159",
+        "component_type": "PIPELINE",
+        "start_node": "J_133",
+        "end_node": "J_134",
+        "length_m": 884.1,
+        "diameter_mm": 150,
+        "roughness_c": 140,
+        "material": "PVC",
+        "installation_year": 2023,
+        "age_years": 3,
+        "condition": 4,
+        "previous_failures": 0,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.484041,
+            17.383134
+          ],
+          [
+            78.491482,
+            17.380708
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_160",
+        "component_type": "PIPELINE",
+        "start_node": "J_134",
+        "end_node": "J_135",
+        "length_m": 833.0,
+        "diameter_mm": 250,
+        "roughness_c": 140,
+        "material": "PVC",
+        "installation_year": 2020,
+        "age_years": 6,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 2,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.484041,
+            17.383134
+          ],
+          [
+            78.481413,
+            17.376079
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_161",
+        "component_type": "PIPELINE",
+        "start_node": "J_134",
+        "end_node": "J_142",
+        "length_m": 831.1,
+        "diameter_mm": 400,
+        "roughness_c": 140,
+        "material": "PVC",
+        "installation_year": 2009,
+        "age_years": 17,
+        "condition": 3,
+        "previous_failures": 0,
+        "criticality": 4,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.491482,
+            17.380708
+          ],
+          [
+            78.498849,
+            17.381926
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_162",
+        "component_type": "PIPELINE",
+        "start_node": "J_135",
+        "end_node": "J_136",
+        "length_m": 792.0,
+        "diameter_mm": 150,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2016,
+        "age_years": 10,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 2,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.491482,
+            17.380708
+          ],
+          [
+            78.489597,
+            17.374143
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_163",
+        "component_type": "PIPELINE",
+        "start_node": "J_135",
+        "end_node": "J_143",
+        "length_m": 755.6,
+        "diameter_mm": 200,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 1997,
+        "age_years": 29,
+        "condition": 4,
+        "previous_failures": 1,
+        "criticality": 2,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.498849,
+            17.381926
+          ],
+          [
+            78.505835,
+            17.381769
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_164",
+        "component_type": "PIPELINE",
+        "start_node": "J_136",
+        "end_node": "J_137",
+        "length_m": 740.2,
+        "diameter_mm": 400,
+        "roughness_c": 140,
+        "material": "PVC",
+        "installation_year": 2008,
+        "age_years": 18,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 4,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.498849,
+            17.381926
+          ],
+          [
+            78.499554,
+            17.374918
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_165",
+        "component_type": "PIPELINE",
+        "start_node": "J_136",
+        "end_node": "J_144",
+        "length_m": 781.5,
+        "diameter_mm": 250,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2017,
+        "age_years": 9,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.505835,
+            17.381769
+          ],
+          [
+            78.514135,
+            17.381103
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_166",
+        "component_type": "PIPELINE",
+        "start_node": "J_137",
+        "end_node": "J_138",
+        "length_m": 882.3,
+        "diameter_mm": 200,
+        "roughness_c": 82,
+        "material": "Cast Iron",
+        "installation_year": 1994,
+        "age_years": 32,
+        "condition": 4,
+        "previous_failures": 3,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.505835,
+            17.381769
+          ],
+          [
+            78.506493,
+            17.373791
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_167",
+        "component_type": "PIPELINE",
+        "start_node": "J_137",
+        "end_node": "J_145",
+        "length_m": 888.3,
+        "diameter_mm": 200,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2006,
+        "age_years": 20,
+        "condition": 4,
+        "previous_failures": 2,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.514135,
+            17.381103
+          ],
+          [
+            78.51522,
+            17.375687
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_168",
+        "component_type": "PIPELINE",
+        "start_node": "J_138",
+        "end_node": "J_146",
+        "length_m": 612.1,
+        "diameter_mm": 200,
+        "roughness_c": 90,
+        "material": "Steel",
+        "installation_year": 1999,
+        "age_years": 27,
+        "condition": 3,
+        "previous_failures": 1,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.458753,
+            17.374814
+          ],
+          [
+            78.466965,
+            17.374514
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_169",
+        "component_type": "PIPELINE",
+        "start_node": "J_139",
+        "end_node": "J_140",
+        "length_m": 870.5,
+        "diameter_mm": 300,
+        "roughness_c": 87,
+        "material": "Cast Iron",
+        "installation_year": 1994,
+        "age_years": 32,
+        "condition": 4,
+        "previous_failures": 3,
+        "criticality": 4,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.458753,
+            17.374814
+          ],
+          [
+            78.458218,
+            17.367708
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_170",
+        "component_type": "PIPELINE",
+        "start_node": "J_139",
+        "end_node": "J_147",
+        "length_m": 790.8,
+        "diameter_mm": 600,
+        "roughness_c": 86,
+        "material": "Cast Iron",
+        "installation_year": 1978,
+        "age_years": 48,
+        "condition": 3,
+        "previous_failures": 2,
+        "criticality": 5,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.466965,
+            17.374514
+          ],
+          [
+            78.475093,
+            17.373713
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_171",
+        "component_type": "PIPELINE",
+        "start_node": "J_140",
+        "end_node": "J_141",
+        "length_m": 865.6,
+        "diameter_mm": 200,
+        "roughness_c": 72,
+        "material": "Steel",
+        "installation_year": 1992,
+        "age_years": 34,
+        "condition": 3,
+        "previous_failures": 2,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.466965,
+            17.374514
+          ],
+          [
+            78.466546,
+            17.367071
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_172",
+        "component_type": "PIPELINE",
+        "start_node": "J_140",
+        "end_node": "J_148",
+        "length_m": 827.4,
+        "diameter_mm": 200,
+        "roughness_c": 87,
+        "material": "Cast Iron",
+        "installation_year": 1972,
+        "age_years": 54,
+        "condition": 2,
+        "previous_failures": 3,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.475093,
+            17.373713
+          ],
+          [
+            78.481413,
+            17.376079
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_173",
+        "component_type": "PIPELINE",
+        "start_node": "J_141",
+        "end_node": "J_142",
+        "length_m": 719.1,
+        "diameter_mm": 150,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2004,
+        "age_years": 22,
+        "condition": 4,
+        "previous_failures": 2,
+        "criticality": 2,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.475093,
+            17.373713
+          ],
+          [
+            78.47597,
+            17.367249
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_174",
+        "component_type": "PIPELINE",
+        "start_node": "J_141",
+        "end_node": "J_149",
+        "length_m": 723.5,
+        "diameter_mm": 250,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2007,
+        "age_years": 19,
+        "condition": 5,
+        "previous_failures": 1,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.481413,
+            17.376079
+          ],
+          [
+            78.489597,
+            17.374143
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_175",
+        "component_type": "PIPELINE",
+        "start_node": "J_142",
+        "end_node": "J_143",
+        "length_m": 893.2,
+        "diameter_mm": 200,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2009,
+        "age_years": 17,
+        "condition": 5,
+        "previous_failures": 1,
+        "criticality": 2,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.481413,
+            17.376079
+          ],
+          [
+            78.481352,
+            17.368151
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_176",
+        "component_type": "PIPELINE",
+        "start_node": "J_142",
+        "end_node": "J_150",
+        "length_m": 880.0,
+        "diameter_mm": 200,
+        "roughness_c": 140,
+        "material": "PVC",
+        "installation_year": 2011,
+        "age_years": 15,
+        "condition": 5,
+        "previous_failures": 1,
+        "criticality": 2,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.489597,
+            17.374143
+          ],
+          [
+            78.499554,
+            17.374918
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_177",
+        "component_type": "PIPELINE",
+        "start_node": "J_143",
+        "end_node": "J_144",
+        "length_m": 1058.2,
+        "diameter_mm": 250,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2016,
+        "age_years": 10,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.489597,
+            17.374143
+          ],
+          [
+            78.491979,
+            17.369407
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_178",
+        "component_type": "PIPELINE",
+        "start_node": "J_143",
+        "end_node": "J_151",
+        "length_m": 583.1,
+        "diameter_mm": 200,
+        "roughness_c": 76,
+        "material": "Asbestos Cement",
+        "installation_year": 1980,
+        "age_years": 46,
+        "condition": 1,
+        "previous_failures": 4,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.499554,
+            17.374918
+          ],
+          [
+            78.506493,
+            17.373791
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_179",
+        "component_type": "PIPELINE",
+        "start_node": "J_144",
+        "end_node": "J_145",
+        "length_m": 745.6,
+        "diameter_mm": 300,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2017,
+        "age_years": 9,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 4,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.499554,
+            17.374918
+          ],
+          [
+            78.497841,
+            17.367957
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_180",
+        "component_type": "PIPELINE",
+        "start_node": "J_144",
+        "end_node": "J_152",
+        "length_m": 793.7,
+        "diameter_mm": 300,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2009,
+        "age_years": 17,
+        "condition": 4,
+        "previous_failures": 1,
+        "criticality": 4,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.506493,
+            17.373791
+          ],
+          [
+            78.51522,
+            17.375687
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_181",
+        "component_type": "PIPELINE",
+        "start_node": "J_145",
+        "end_node": "J_146",
+        "length_m": 948.1,
+        "diameter_mm": 250,
+        "roughness_c": 83,
+        "material": "Cast Iron",
+        "installation_year": 1977,
+        "age_years": 49,
+        "condition": 2,
+        "previous_failures": 5,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.506493,
+            17.373791
+          ],
+          [
+            78.508156,
+            17.367637
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_182",
+        "component_type": "PIPELINE",
+        "start_node": "J_145",
+        "end_node": "J_153",
+        "length_m": 705.4,
+        "diameter_mm": 250,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2005,
+        "age_years": 21,
+        "condition": 5,
+        "previous_failures": 1,
+        "criticality": 3,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.51522,
+            17.375687
+          ],
+          [
+            78.514469,
+            17.367865
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_183",
+        "component_type": "PIPELINE",
+        "start_node": "J_146",
+        "end_node": "J_154",
+        "length_m": 871.9,
+        "diameter_mm": 400,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2015,
+        "age_years": 11,
+        "condition": 4,
+        "previous_failures": 0,
+        "criticality": 4,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.458218,
+            17.367708
+          ],
+          [
+            78.466546,
+            17.367071
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_184",
+        "component_type": "PIPELINE",
+        "start_node": "J_147",
+        "end_node": "J_148",
+        "length_m": 885.0,
+        "diameter_mm": 150,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2018,
+        "age_years": 8,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 2,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.458218,
+            17.367708
+          ],
+          [
+            78.459355,
+            17.361167
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_185",
+        "component_type": "PIPELINE",
+        "start_node": "J_147",
+        "end_node": "J_155",
+        "length_m": 736.0,
+        "diameter_mm": 250,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2011,
+        "age_years": 15,
+        "condition": 3,
+        "previous_failures": 1,
+        "criticality": 2,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.466546,
+            17.367071
+          ],
+          [
+            78.47597,
+            17.367249
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_186",
+        "component_type": "PIPELINE",
+        "start_node": "J_148",
+        "end_node": "J_149",
+        "length_m": 998.5,
+        "diameter_mm": 150,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2007,
+        "age_years": 19,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 3,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.466546,
+            17.367071
+          ],
+          [
+            78.466938,
+            17.362406
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_187",
+        "component_type": "PIPELINE",
+        "start_node": "J_148",
+        "end_node": "J_156",
+        "length_m": 519.5,
+        "diameter_mm": 200,
+        "roughness_c": 84,
+        "material": "Cast Iron",
+        "installation_year": 1975,
+        "age_years": 51,
+        "condition": 1,
+        "previous_failures": 4,
+        "criticality": 3,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.47597,
+            17.367249
+          ],
+          [
+            78.481352,
+            17.368151
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_188",
+        "component_type": "PIPELINE",
+        "start_node": "J_149",
+        "end_node": "J_150",
+        "length_m": 578.8,
+        "diameter_mm": 150,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2015,
+        "age_years": 11,
+        "condition": 4,
+        "previous_failures": 0,
+        "criticality": 3,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.47597,
+            17.367249
+          ],
+          [
+            78.474953,
+            17.359671
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_189",
+        "component_type": "PIPELINE",
+        "start_node": "J_149",
+        "end_node": "J_157",
+        "length_m": 848.0,
+        "diameter_mm": 200,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2015,
+        "age_years": 11,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 3,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.481352,
+            17.368151
+          ],
+          [
+            78.484082,
+            17.359972
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_190",
+        "component_type": "PIPELINE",
+        "start_node": "J_150",
+        "end_node": "J_158",
+        "length_m": 952.8,
+        "diameter_mm": 150,
+        "roughness_c": 73,
+        "material": "Steel",
+        "installation_year": 1993,
+        "age_years": 33,
+        "condition": 4,
+        "previous_failures": 2,
+        "criticality": 2,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.491979,
+            17.369407
+          ],
+          [
+            78.497841,
+            17.367957
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_191",
+        "component_type": "PIPELINE",
+        "start_node": "J_151",
+        "end_node": "J_152",
+        "length_m": 641.5,
+        "diameter_mm": 150,
+        "roughness_c": 107,
+        "material": "Ductile Iron",
+        "installation_year": 1992,
+        "age_years": 34,
+        "condition": 2,
+        "previous_failures": 2,
+        "criticality": 3,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.491979,
+            17.369407
+          ],
+          [
+            78.491226,
+            17.361285
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_192",
+        "component_type": "PIPELINE",
+        "start_node": "J_151",
+        "end_node": "J_159",
+        "length_m": 905.1,
+        "diameter_mm": 400,
+        "roughness_c": 90,
+        "material": "Steel",
+        "installation_year": 2005,
+        "age_years": 21,
+        "condition": 3,
+        "previous_failures": 2,
+        "criticality": 4,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.497841,
+            17.367957
+          ],
+          [
+            78.497939,
+            17.362171
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_193",
+        "component_type": "PIPELINE",
+        "start_node": "J_152",
+        "end_node": "J_160",
+        "length_m": 642.3,
+        "diameter_mm": 300,
+        "roughness_c": 107,
+        "material": "Ductile Iron",
+        "installation_year": 1993,
+        "age_years": 33,
+        "condition": 2,
+        "previous_failures": 1,
+        "criticality": 4,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.508156,
+            17.367637
+          ],
+          [
+            78.514469,
+            17.367865
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_194",
+        "component_type": "PIPELINE",
+        "start_node": "J_153",
+        "end_node": "J_154",
+        "length_m": 669.2,
+        "diameter_mm": 250,
+        "roughness_c": 140,
+        "material": "PVC",
+        "installation_year": 2005,
+        "age_years": 21,
+        "condition": 4,
+        "previous_failures": 0,
+        "criticality": 2,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.508156,
+            17.367637
+          ],
+          [
+            78.506951,
+            17.360758
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_195",
+        "component_type": "PIPELINE",
+        "start_node": "J_153",
+        "end_node": "J_161",
+        "length_m": 774.2,
+        "diameter_mm": 200,
+        "roughness_c": 83,
+        "material": "Cast Iron",
+        "installation_year": 1985,
+        "age_years": 41,
+        "condition": 1,
+        "previous_failures": 3,
+        "criticality": 3,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.514469,
+            17.367865
+          ],
+          [
+            78.515349,
+            17.360113
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_196",
+        "component_type": "PIPELINE",
+        "start_node": "J_154",
+        "end_node": "J_162",
+        "length_m": 865.5,
+        "diameter_mm": 400,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2014,
+        "age_years": 12,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 4,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.459355,
+            17.361167
+          ],
+          [
+            78.466938,
+            17.362406
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_197",
+        "component_type": "PIPELINE",
+        "start_node": "J_155",
+        "end_node": "J_156",
+        "length_m": 815.0,
+        "diameter_mm": 250,
+        "roughness_c": 140,
+        "material": "PVC",
+        "installation_year": 2016,
+        "age_years": 10,
+        "condition": 4,
+        "previous_failures": 0,
+        "criticality": 2,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.466938,
+            17.362406
+          ],
+          [
+            78.474953,
+            17.359671
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_198",
+        "component_type": "PIPELINE",
+        "start_node": "J_156",
+        "end_node": "J_157",
+        "length_m": 901.7,
+        "diameter_mm": 200,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2016,
+        "age_years": 10,
+        "condition": 4,
+        "previous_failures": 0,
+        "criticality": 3,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.474953,
+            17.359671
+          ],
+          [
+            78.484082,
+            17.359972
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_199",
+        "component_type": "PIPELINE",
+        "start_node": "J_157",
+        "end_node": "J_158",
+        "length_m": 967.6,
+        "diameter_mm": 400,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2008,
+        "age_years": 18,
+        "condition": 3,
+        "previous_failures": 1,
+        "criticality": 4,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.484082,
+            17.359972
+          ],
+          [
+            78.491226,
+            17.361285
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_200",
+        "component_type": "PIPELINE",
+        "start_node": "J_158",
+        "end_node": "J_159",
+        "length_m": 770.7,
+        "diameter_mm": 300,
+        "roughness_c": 140,
+        "material": "PVC",
+        "installation_year": 2023,
+        "age_years": 3,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 4,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.491226,
+            17.361285
+          ],
+          [
+            78.497939,
+            17.362171
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_201",
+        "component_type": "PIPELINE",
+        "start_node": "J_159",
+        "end_node": "J_160",
+        "length_m": 717.9,
+        "diameter_mm": 150,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2017,
+        "age_years": 9,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 2,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.497939,
+            17.362171
+          ],
+          [
+            78.506951,
+            17.360758
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_202",
+        "component_type": "PIPELINE",
+        "start_node": "J_160",
+        "end_node": "J_161",
+        "length_m": 967.4,
+        "diameter_mm": 400,
+        "roughness_c": 106,
+        "material": "Ductile Iron",
+        "installation_year": 1994,
+        "age_years": 32,
+        "condition": 3,
+        "previous_failures": 1,
+        "criticality": 4,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.506951,
+            17.360758
+          ],
+          [
+            78.515349,
+            17.360113
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_203",
+        "component_type": "PIPELINE",
+        "start_node": "J_161",
+        "end_node": "J_162",
+        "length_m": 892.5,
+        "diameter_mm": 150,
+        "roughness_c": 140,
+        "material": "HDPE",
+        "installation_year": 2008,
+        "age_years": 18,
+        "condition": 3,
+        "previous_failures": 1,
+        "criticality": 3,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.4717,
+            17.407
+          ],
+          [
+            78.467011,
+            17.404042
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_204",
+        "component_type": "PIPELINE",
+        "start_node": "TANK_T1",
+        "end_node": "J_108",
+        "length_m": 595.4,
+        "diameter_mm": 400,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2013,
+        "age_years": 13,
+        "condition": 4,
+        "previous_failures": 0,
+        "criticality": 4,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.4987,
+            17.395000000000003
+          ],
+          [
+            78.466172,
+            17.380502
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_205",
+        "component_type": "PIPELINE",
+        "start_node": "TANK_T2",
+        "end_node": "J_132",
+        "length_m": 1500.0,
+        "diameter_mm": 500,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2008,
+        "age_years": 18,
+        "condition": 4,
+        "previous_failures": 0,
+        "criticality": 5,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.5117,
+            17.365000000000002
+          ],
+          [
+            78.459355,
+            17.361167
+          ]
+        ]
+      },
+      "properties": {
+        "id": "P_206",
+        "component_type": "PIPELINE",
+        "start_node": "TANK_T3",
+        "end_node": "J_155",
+        "length_m": 1500.0,
+        "diameter_mm": 400,
+        "roughness_c": 120,
+        "material": "Ductile Iron",
+        "installation_year": 2005,
+        "age_years": 21,
+        "condition": 5,
+        "previous_failures": 0,
+        "criticality": 4,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.465275,
+          17.410418
+        ]
+      },
+      "properties": {
+        "id": "J_101",
+        "component_type": "JUNCTION",
+        "elevation_m": 532.2,
+        "base_demand_lps": 11.85,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.47523,
+          17.410709
+        ]
+      },
+      "properties": {
+        "id": "J_102",
+        "component_type": "JUNCTION",
+        "elevation_m": 531.8,
+        "base_demand_lps": 20.49,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.481289,
+          17.409766
+        ]
+      },
+      "properties": {
+        "id": "J_103",
+        "component_type": "JUNCTION",
+        "elevation_m": 533.0,
+        "base_demand_lps": 11.06,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.489797,
+          17.40858
+        ]
+      },
+      "properties": {
+        "id": "J_104",
+        "component_type": "JUNCTION",
+        "elevation_m": 533.1,
+        "base_demand_lps": 17.1,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.498968,
+          17.409161
+        ]
+      },
+      "properties": {
+        "id": "J_105",
+        "component_type": "JUNCTION",
+        "elevation_m": 531.5,
+        "base_demand_lps": 19.33,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.507294,
+          17.410917
+        ]
+      },
+      "properties": {
+        "id": "J_106",
+        "component_type": "JUNCTION",
+        "elevation_m": 532.0,
+        "base_demand_lps": 12.76,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.45821,
+          17.404372
+        ]
+      },
+      "properties": {
+        "id": "J_107",
+        "component_type": "JUNCTION",
+        "elevation_m": 528.3,
+        "base_demand_lps": 9.3,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.467011,
+          17.404042
+        ]
+      },
+      "properties": {
+        "id": "J_108",
+        "component_type": "JUNCTION",
+        "elevation_m": 530.2,
+        "base_demand_lps": 19.3,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.476119,
+          17.403109
+        ]
+      },
+      "properties": {
+        "id": "J_109",
+        "component_type": "JUNCTION",
+        "elevation_m": 529.7,
+        "base_demand_lps": 13.3,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.483056,
+          17.403988
+        ]
+      },
+      "properties": {
+        "id": "J_110",
+        "component_type": "JUNCTION",
+        "elevation_m": 529.7,
+        "base_demand_lps": 20.06,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.489337,
+          17.403614
+        ]
+      },
+      "properties": {
+        "id": "J_111",
+        "component_type": "JUNCTION",
+        "elevation_m": 528.9,
+        "base_demand_lps": 11.19,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.497898,
+          17.401739
+        ]
+      },
+      "properties": {
+        "id": "J_112",
+        "component_type": "JUNCTION",
+        "elevation_m": 528.8,
+        "base_demand_lps": 9.41,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.506294,
+          17.403407
+        ]
+      },
+      "properties": {
+        "id": "J_113",
+        "component_type": "JUNCTION",
+        "elevation_m": 528.6,
+        "base_demand_lps": 13.18,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.51601,
+          17.402301
+        ]
+      },
+      "properties": {
+        "id": "J_114",
+        "component_type": "JUNCTION",
+        "elevation_m": 529.8,
+        "base_demand_lps": 17.07,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.459387,
+          17.395013
+        ]
+      },
+      "properties": {
+        "id": "J_115",
+        "component_type": "JUNCTION",
+        "elevation_m": 525.6,
+        "base_demand_lps": 10.29,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.46712,
+          17.397469
+        ]
+      },
+      "properties": {
+        "id": "J_116",
+        "component_type": "JUNCTION",
+        "elevation_m": 526.6,
+        "base_demand_lps": 15.8,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.475528,
+          17.397029
+        ]
+      },
+      "properties": {
+        "id": "J_117",
+        "component_type": "JUNCTION",
+        "elevation_m": 524.6,
+        "base_demand_lps": 11.21,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.482003,
+          17.395446
+        ]
+      },
+      "properties": {
+        "id": "J_118",
+        "component_type": "JUNCTION",
+        "elevation_m": 527.3,
+        "base_demand_lps": 10.95,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.490144,
+          17.397129
+        ]
+      },
+      "properties": {
+        "id": "J_119",
+        "component_type": "JUNCTION",
+        "elevation_m": 525.7,
+        "base_demand_lps": 17.18,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.498577,
+          17.397244
+        ]
+      },
+      "properties": {
+        "id": "J_120",
+        "component_type": "JUNCTION",
+        "elevation_m": 525.2,
+        "base_demand_lps": 11.71,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.505988,
+          17.396184
+        ]
+      },
+      "properties": {
+        "id": "J_121",
+        "component_type": "JUNCTION",
+        "elevation_m": 527.2,
+        "base_demand_lps": 16.18,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.513858,
+          17.395698
+        ]
+      },
+      "properties": {
+        "id": "J_122",
+        "component_type": "JUNCTION",
+        "elevation_m": 526.0,
+        "base_demand_lps": 21.97,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.457341,
+          17.387773
+        ]
+      },
+      "properties": {
+        "id": "J_123",
+        "component_type": "JUNCTION",
+        "elevation_m": 522.9,
+        "base_demand_lps": 17.52,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.466466,
+          17.389876
+        ]
+      },
+      "properties": {
+        "id": "J_124",
+        "component_type": "JUNCTION",
+        "elevation_m": 522.1,
+        "base_demand_lps": 16.46,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.474787,
+          17.390488
+        ]
+      },
+      "properties": {
+        "id": "J_125",
+        "component_type": "JUNCTION",
+        "elevation_m": 523.6,
+        "base_demand_lps": 37.33,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.483362,
+          17.387534
+        ]
+      },
+      "properties": {
+        "id": "J_126",
+        "component_type": "JUNCTION",
+        "elevation_m": 522.6,
+        "base_demand_lps": 30.68,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.491123,
+          17.3883
+        ]
+      },
+      "properties": {
+        "id": "J_127",
+        "component_type": "JUNCTION",
+        "elevation_m": 522.3,
+        "base_demand_lps": 17.57,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.500061,
+          17.388861
+        ]
+      },
+      "properties": {
+        "id": "J_128",
+        "component_type": "JUNCTION",
+        "elevation_m": 521.8,
+        "base_demand_lps": 35.14,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.505736,
+          17.389002
+        ]
+      },
+      "properties": {
+        "id": "J_129",
+        "component_type": "JUNCTION",
+        "elevation_m": 523.6,
+        "base_demand_lps": 35.99,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.515117,
+          17.388395
+        ]
+      },
+      "properties": {
+        "id": "J_130",
+        "component_type": "JUNCTION",
+        "elevation_m": 521.5,
+        "base_demand_lps": 29.01,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.458818,
+          17.382788
+        ]
+      },
+      "properties": {
+        "id": "J_131",
+        "component_type": "JUNCTION",
+        "elevation_m": 519.1,
+        "base_demand_lps": 32.91,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.466172,
+          17.380502
+        ]
+      },
+      "properties": {
+        "id": "J_132",
+        "component_type": "JUNCTION",
+        "elevation_m": 520.3,
+        "base_demand_lps": 15.45,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.475695,
+          17.383136
+        ]
+      },
+      "properties": {
+        "id": "J_133",
+        "component_type": "JUNCTION",
+        "elevation_m": 517.7,
+        "base_demand_lps": 22.07,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.484041,
+          17.383134
+        ]
+      },
+      "properties": {
+        "id": "J_134",
+        "component_type": "JUNCTION",
+        "elevation_m": 519.0,
+        "base_demand_lps": 16.97,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.491482,
+          17.380708
+        ]
+      },
+      "properties": {
+        "id": "J_135",
+        "component_type": "JUNCTION",
+        "elevation_m": 517.9,
+        "base_demand_lps": 32.61,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.498849,
+          17.381926
+        ]
+      },
+      "properties": {
+        "id": "J_136",
+        "component_type": "JUNCTION",
+        "elevation_m": 520.1,
+        "base_demand_lps": 21.1,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.505835,
+          17.381769
+        ]
+      },
+      "properties": {
+        "id": "J_137",
+        "component_type": "JUNCTION",
+        "elevation_m": 519.7,
+        "base_demand_lps": 27.4,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.514135,
+          17.381103
+        ]
+      },
+      "properties": {
+        "id": "J_138",
+        "component_type": "JUNCTION",
+        "elevation_m": 519.4,
+        "base_demand_lps": 37.89,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.458753,
+          17.374814
+        ]
+      },
+      "properties": {
+        "id": "J_139",
+        "component_type": "JUNCTION",
+        "elevation_m": 514.7,
+        "base_demand_lps": 17.78,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.466965,
+          17.374514
+        ]
+      },
+      "properties": {
+        "id": "J_140",
+        "component_type": "JUNCTION",
+        "elevation_m": 514.7,
+        "base_demand_lps": 20.29,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.475093,
+          17.373713
+        ]
+      },
+      "properties": {
+        "id": "J_141",
+        "component_type": "JUNCTION",
+        "elevation_m": 516.7,
+        "base_demand_lps": 20.27,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.481413,
+          17.376079
+        ]
+      },
+      "properties": {
+        "id": "J_142",
+        "component_type": "JUNCTION",
+        "elevation_m": 516.0,
+        "base_demand_lps": 20.47,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.489597,
+          17.374143
+        ]
+      },
+      "properties": {
+        "id": "J_143",
+        "component_type": "JUNCTION",
+        "elevation_m": 515.7,
+        "base_demand_lps": 36.52,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.499554,
+          17.374918
+        ]
+      },
+      "properties": {
+        "id": "J_144",
+        "component_type": "JUNCTION",
+        "elevation_m": 514.6,
+        "base_demand_lps": 33.57,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.506493,
+          17.373791
+        ]
+      },
+      "properties": {
+        "id": "J_145",
+        "component_type": "JUNCTION",
+        "elevation_m": 515.4,
+        "base_demand_lps": 24.74,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.51522,
+          17.375687
+        ]
+      },
+      "properties": {
+        "id": "J_146",
+        "component_type": "JUNCTION",
+        "elevation_m": 514.3,
+        "base_demand_lps": 37.64,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.458218,
+          17.367708
+        ]
+      },
+      "properties": {
+        "id": "J_147",
+        "component_type": "JUNCTION",
+        "elevation_m": 511.2,
+        "base_demand_lps": 40.44,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.466546,
+          17.367071
+        ]
+      },
+      "properties": {
+        "id": "J_148",
+        "component_type": "JUNCTION",
+        "elevation_m": 511.3,
+        "base_demand_lps": 25.92,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.47597,
+          17.367249
+        ]
+      },
+      "properties": {
+        "id": "J_149",
+        "component_type": "JUNCTION",
+        "elevation_m": 513.1,
+        "base_demand_lps": 26.62,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.481352,
+          17.368151
+        ]
+      },
+      "properties": {
+        "id": "J_150",
+        "component_type": "JUNCTION",
+        "elevation_m": 513.0,
+        "base_demand_lps": 44.98,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.491979,
+          17.369407
+        ]
+      },
+      "properties": {
+        "id": "J_151",
+        "component_type": "JUNCTION",
+        "elevation_m": 511.0,
+        "base_demand_lps": 40.01,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.497841,
+          17.367957
+        ]
+      },
+      "properties": {
+        "id": "J_152",
+        "component_type": "JUNCTION",
+        "elevation_m": 510.7,
+        "base_demand_lps": 25.23,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.508156,
+          17.367637
+        ]
+      },
+      "properties": {
+        "id": "J_153",
+        "component_type": "JUNCTION",
+        "elevation_m": 512.9,
+        "base_demand_lps": 20.75,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.514469,
+          17.367865
+        ]
+      },
+      "properties": {
+        "id": "J_154",
+        "component_type": "JUNCTION",
+        "elevation_m": 513.5,
+        "base_demand_lps": 43.59,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.459355,
+          17.361167
+        ]
+      },
+      "properties": {
+        "id": "J_155",
+        "component_type": "JUNCTION",
+        "elevation_m": 507.9,
+        "base_demand_lps": 17.11,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.466938,
+          17.362406
+        ]
+      },
+      "properties": {
+        "id": "J_156",
+        "component_type": "JUNCTION",
+        "elevation_m": 509.2,
+        "base_demand_lps": 29.89,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.474953,
+          17.359671
+        ]
+      },
+      "properties": {
+        "id": "J_157",
+        "component_type": "JUNCTION",
+        "elevation_m": 509.6,
+        "base_demand_lps": 28.59,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.484082,
+          17.359972
+        ]
+      },
+      "properties": {
+        "id": "J_158",
+        "component_type": "JUNCTION",
+        "elevation_m": 507.6,
+        "base_demand_lps": 14.64,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.491226,
+          17.361285
+        ]
+      },
+      "properties": {
+        "id": "J_159",
+        "component_type": "JUNCTION",
+        "elevation_m": 507.4,
+        "base_demand_lps": 19.76,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.497939,
+          17.362171
+        ]
+      },
+      "properties": {
+        "id": "J_160",
+        "component_type": "JUNCTION",
+        "elevation_m": 508.9,
+        "base_demand_lps": 31.62,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.506951,
+          17.360758
+        ]
+      },
+      "properties": {
+        "id": "J_161",
+        "component_type": "JUNCTION",
+        "elevation_m": 509.8,
+        "base_demand_lps": 29.25,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.515349,
+          17.360113
+        ]
+      },
+      "properties": {
+        "id": "J_162",
+        "component_type": "JUNCTION",
+        "elevation_m": 508.2,
+        "base_demand_lps": 19.88,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4717,
+          17.407
+        ]
+      },
+      "properties": {
+        "id": "TANK_T1",
+        "name": "Jubilee Hills Master Balancing Reservoir (MBR)",
+        "component_type": "TANK",
+        "elevation_m": 540.0,
+        "init_level_m": 5.5,
+        "min_level_m": 1.5,
+        "max_level_m": 8.0,
+        "diameter_m": 24.0,
+        "zone": "ZONE_A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4987,
+          17.395000000000003
+        ]
+      },
+      "properties": {
+        "id": "TANK_T2",
+        "name": "Begumpet Central Distribution Tower (ELSR)",
+        "component_type": "TANK",
+        "elevation_m": 525.0,
+        "init_level_m": 4.8,
+        "min_level_m": 1.2,
+        "max_level_m": 7.5,
+        "diameter_m": 22.0,
+        "zone": "ZONE_B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5117,
+          17.365000000000002
+        ]
+      },
+      "properties": {
+        "id": "TANK_T3",
+        "name": "Asif Nagar Elevated Storage Reservoir (ELSR)",
+        "component_type": "TANK",
+        "elevation_m": 515.0,
+        "init_level_m": 6.0,
+        "min_level_m": 2.0,
+        "max_level_m": 9.0,
+        "diameter_m": 18.0,
+        "zone": "ZONE_C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4567,
+          17.42
+        ]
+      },
+      "properties": {
+        "id": "RES_R1",
+        "name": "Krishna Drinking Water Supply Scheme (Nagarjuna Sagar Intake)",
+        "component_type": "RESERVOIR",
+        "head_m": 575.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5187,
+          17.425
+        ]
+      },
+      "properties": {
+        "id": "RES_R2",
+        "name": "Godavari Drinking Water Supply Scheme (Yellampally Intake)",
+        "component_type": "RESERVOIR",
+        "head_m": 585.0
+      }
+    }
+  ]
+}
