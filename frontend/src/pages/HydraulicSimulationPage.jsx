@@ -210,8 +210,8 @@ export default function HydraulicSimulationPage() {
                 maintainAspectRatio: false,
                 plugins: { legend: { labels: { color: '#94a3b8', font: { size: 10 } } } },
                 scales: {
-                  x: { ticks: { color: '#64748b' }, grid: { color: '#1e293b' } },
-                  y: { ticks: { color: '#64748b' }, grid: { color: '#1e293b' } }
+                  x: { ticks: { color: '#64748b' }, grid: { color: 'rgba(148, 163, 184, 0.16)', drawBorder: false } },
+                  y: { ticks: { color: '#64748b' }, grid: { color: 'rgba(148, 163, 184, 0.16)', drawBorder: false } }
                 }
               }}
             />

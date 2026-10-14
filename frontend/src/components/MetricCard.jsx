@@ -2,18 +2,18 @@ import React from 'react';
 
 export function MetricCard({ title, value, subtitle, icon: Icon, color = 'sky', alert = false }) {
   const colorStyles = {
-    sky: 'from-sky-500/10 to-transparent border-sky-500/30 text-sky-400',
-    emerald: 'from-emerald-500/10 to-transparent border-emerald-500/30 text-emerald-400',
-    amber: 'from-amber-500/10 to-transparent border-amber-500/30 text-amber-400',
-    rose: 'from-rose-500/10 to-transparent border-rose-500/30 text-rose-400',
-    purple: 'from-purple-500/10 to-transparent border-purple-500/30 text-purple-400'
+    sky: 'border-slate-200 text-sky-700',
+    emerald: 'border-slate-200 text-emerald-700',
+    amber: 'border-slate-200 text-amber-700',
+    rose: 'border-slate-200 text-rose-700',
+    purple: 'border-slate-200 text-purple-700'
   };
 
   return (
-    <div className={`p-4 rounded-2xl bg-gradient-to-b ${colorStyles[color] || colorStyles.sky} border bg-slate-900/60 shadow-lg relative overflow-hidden`}>
+    <div className={`p-4 rounded-xl bg-white ${colorStyles[color] || colorStyles.sky} border shadow-sm relative overflow-hidden`}>
       <div className="flex items-center justify-between">
         <span className="text-xs font-medium text-slate-400">{title}</span>
-        {Icon && <Icon className={`w-5 h-5 ${alert ? 'animate-bounce text-rose-400' : 'opacity-80'}`} />}
+        {Icon && <Icon className={`w-5 h-5 ${alert ? 'text-rose-600' : 'opacity-80'}`} />}
       </div>
       <div className="mt-2 flex items-baseline gap-2">
         <span className="text-2xl font-bold tracking-tight text-white">{value}</span>

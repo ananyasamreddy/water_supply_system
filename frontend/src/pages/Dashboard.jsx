@@ -5,6 +5,7 @@ import { MetricCard } from '../components/MetricCard';
 import GISMap from '../components/GISMap';
 import {
   ShieldCheck,
+  Map,
   Building2,
   HardHat,
   Users,
@@ -87,7 +88,7 @@ export default function Dashboard({ onNavigate }) {
       {
         data: [summary.low_risk_pipelines, summary.medium_risk_pipelines, summary.high_risk_pipelines],
         backgroundColor: ['#10b981', '#f59e0b', '#ef4444'],
-        borderColor: '#0f172a',
+        borderColor: '#ffffff',
         borderWidth: 2
       }
     ]
@@ -100,7 +101,7 @@ export default function Dashboard({ onNavigate }) {
       {
         label: 'Reported Issues',
         data: overview?.charts?.complaints_by_type?.map(c => c.count) || [1, 1, 1, 1],
-        backgroundColor: '#38bdf8',
+        backgroundColor: '#6b9cc8',
         borderRadius: 6
       }
     ]
@@ -113,7 +114,7 @@ export default function Dashboard({ onNavigate }) {
       {
         label: 'Zone A (m³/h)',
         data: [280, 240, 520, 680, 530, 610, 670, 390],
-        borderColor: '#38bdf8',
+        borderColor: '#4d83b4',
         backgroundColor: 'rgba(56, 189, 248, 0.1)',
         tension: 0.35,
         fill: true
@@ -121,7 +122,7 @@ export default function Dashboard({ onNavigate }) {
       {
         label: 'Zone B (Commercial)',
         data: [350, 280, 480, 890, 820, 850, 720, 430],
-        borderColor: '#10b981',
+        borderColor: '#5a9c88',
         backgroundColor: 'rgba(16, 185, 129, 0.05)',
         tension: 0.35
       }
@@ -132,11 +133,11 @@ export default function Dashboard({ onNavigate }) {
     responsive: true,
     maintainAspectRatio: false,
     plugins: {
-      legend: { labels: { color: '#94a3b8', font: { size: 11 } } }
+      legend: { labels: { color: '#64748b', font: { size: 11 }, usePointStyle: true, boxWidth: 8, padding: 16 } }
     },
     scales: {
-      x: { ticks: { color: '#64748b', font: { size: 10 } }, grid: { color: '#1e293b' } },
-      y: { ticks: { color: '#64748b', font: { size: 10 } }, grid: { color: '#1e293b' } }
+      x: { ticks: { color: '#718096', font: { size: 10 } }, grid: { color: '#f1f4f7', drawBorder: false } },
+      y: { ticks: { color: '#718096', font: { size: 10 } }, grid: { color: '#f1f4f7', drawBorder: false } }
     }
   };
 
@@ -149,19 +150,15 @@ export default function Dashboard({ onNavigate }) {
             <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-sky-900/60 text-sky-300 border border-sky-700">
               Role: {role.replace('_', ' ')}
             </span>
-            <span className="text-xs text-emerald-400 font-medium flex items-center gap-1.5">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              Network Live & Monitored
-            </span>
           </div>
           <h2 className="text-xl font-bold text-white tracking-tight">
             Welcome, {user?.name}
           </h2>
           <p className="text-xs text-slate-300 max-w-2xl leading-relaxed">
-            {role === 'ADMIN' && 'System overview: Monitor all network assets, inspect pipeline failure predictions, assign maintenance, and manage user access.'}
-            {role === 'MUNICIPALITY_OFFICER' && 'Executive portal: Track overall water supply, run hydraulic simulations, and review demand trends.'}
-            {role === 'FIELD_ENGINEER' && 'Field operations: Inspect high-risk pipes, review localized leaks, and update maintenance work orders.'}
-            {role === 'CITIZEN' && 'Public water portal: Check local water supply status, view drinking water points, and report pipe bursts or low pressure.'}
+            {role === 'ADMIN' && 'Review network assets, inspect risk assessments, assign maintenance, and manage access.'}
+            {role === 'MUNICIPALITY_OFFICER' && 'Review supply conditions, test hydraulic scenarios, and compare demand trends.'}
+            {role === 'FIELD_ENGINEER' && 'Review flagged pipes, check reported leaks, and update maintenance work.'}
+            {role === 'CITIZEN' && 'View available service information and report a burst pipe or low pressure.'}
           </p>
         </div>
       </div>
@@ -249,42 +246,7 @@ export default function Dashboard({ onNavigate }) {
             />
           </div>
 
-          {/* Quick Action Navigation Bar */}
-          <div className="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex flex-wrap items-center justify-between gap-3 text-xs">
-            <span className="font-semibold text-slate-300">Quick Navigation:</span>
-            <div className="flex flex-wrap items-center gap-2">
-              <button
-                onClick={() => onNavigate('gis-map')}
-                className="px-3 py-1.5 rounded-lg bg-slate-950 hover:bg-slate-800 border border-slate-700 text-slate-200 font-medium transition cursor-pointer"
-              >
-                🗺️ GIS Network Map
-              </button>
-              <button
-                onClick={() => onNavigate('failure-risk')}
-                className="px-3 py-1.5 rounded-lg bg-slate-950 hover:bg-slate-800 border border-slate-700 text-slate-200 font-medium transition cursor-pointer"
-              >
-                ⚠️ Pipe Failure Risk
-              </button>
-              <button
-                onClick={() => onNavigate('simulation')}
-                className="px-3 py-1.5 rounded-lg bg-slate-950 hover:bg-slate-800 border border-slate-700 text-slate-200 font-medium transition cursor-pointer"
-              >
-                💧 Hydraulic Simulation
-              </button>
-              <button
-                onClick={() => onNavigate('maintenance')}
-                className="px-3 py-1.5 rounded-lg bg-slate-950 hover:bg-slate-800 border border-slate-700 text-slate-200 font-medium transition cursor-pointer"
-              >
-                🔧 Work Orders
-              </button>
-              <button
-                onClick={() => onNavigate('complaints')}
-                className="px-3 py-1.5 rounded-lg bg-slate-950 hover:bg-slate-800 border border-slate-700 text-slate-200 font-medium transition cursor-pointer"
-              >
-                📝 Complaints
-              </button>
-            </div>
-          </div>
+          {/* Keep the dashboard focused on network condition and analysis. Page navigation stays in the sidebar. */}
 
           {/* Interactive GIS Preview & Analytics */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -294,7 +256,7 @@ export default function Dashboard({ onNavigate }) {
                 <div className="flex items-center gap-2">
                   <Activity className="w-4 h-4 text-sky-400" />
                   <h3 className="text-xs font-bold text-white uppercase tracking-wider">
-                    GIS Water Distribution Network Overview
+                    Water network map
                   </h3>
                 </div>
                 <button
@@ -316,7 +278,7 @@ export default function Dashboard({ onNavigate }) {
                 <div className="flex items-center gap-2 pb-2 border-b border-slate-800">
                   <AlertTriangle className="w-4 h-4 text-amber-400" />
                   <h3 className="text-xs font-bold text-white uppercase tracking-wider">
-                    Asset Structural Risk Breakdown
+                    Pipeline condition
                   </h3>
                 </div>
                 <div className="h-56 mt-4">

@@ -64,5 +64,45 @@
     "phone": "1234567890",
     "department": "System & IT Administration",
     "created_at": "2026-09-23T17:50:33.489Z"
+  },
+  {
+    "id": 8,
+    "name": "riya",
+    "email": "riya@gmail.com",
+    "password_hash": "$2a$10$bMPOqcR0NuiaiZYVEA5VXOkU2iWytHZNWQkSAVZT51QbHUyq5kYSa",
+    "role": "CITIZEN",
+    "phone": "2311550000",
+    "department": "Central Zone Resident",
+    "created_at": "2026-09-28T07:51:45.980Z"
+  },
+  {
+    "id": 9,
+    "name": "Rose",
+    "email": "rose@gmail.com",
+    "password_hash": "$2a$10$vxwu3WOvZdQTUSGBK00lJ.wRxrmh8YBTtqmtw/AajxJ21ejN3OOUm",
+    "role": "CITIZEN",
+    "phone": "9088765666",
+    "department": "Central Zone Resident",
+    "created_at": "2026-10-14T04:44:10.393Z"
+  },
+  {
+    "id": 10,
+    "name": "Lilly",
+    "email": "lilly@gmail.com",
+    "password_hash": "$2a$10$XXTRfBAlRCwwpMg4XqivEeAd4UTsNWyS7MDx2.ujcw7ck2JH1Rciy",
+    "role": "FIELD_ENGINEER",
+    "phone": "9877345221",
+    "department": "Distribution Maintenance Crew",
+    "created_at": "2026-10-14T05:15:33.305Z"
+  },
+  {
+    "id": 11,
+    "name": "Sun",
+    "email": "sun@gmail.com",
+    "password_hash": "$2a$10$IZZC1FVbwPWAObJlLotlxumARGAF7TgD6gM86kPN015dur2ufCqfq",
+    "role": "MUNICIPALITY_OFFICER",
+    "phone": "8888999900",
+    "department": "Water Supply Board",
+    "created_at": "2026-10-14T05:16:23.205Z"
   }
 ]

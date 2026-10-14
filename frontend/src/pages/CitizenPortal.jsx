@@ -82,25 +82,24 @@ export default function CitizenPortal({ onNavigate }) {
     <div className="p-6 space-y-6 max-w-7xl mx-auto text-left">
       
       {/* Welcome Banner */}
-      <div className="p-6 rounded-2xl bg-gradient-to-r from-emerald-950/70 via-slate-900 to-sky-950/50 border border-emerald-800/40 shadow-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+      <div className="p-6 rounded-3xl bg-gradient-to-r from-slate-900 via-sky-950/40 to-slate-900 border border-slate-800 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shadow-xl">
         <div className="space-y-1">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-950 text-emerald-400 border border-emerald-800 text-xs font-semibold">
+          <div className="inline-flex items-center gap-2 text-xs font-semibold px-2.5 py-0.5 rounded-full bg-sky-900/60 text-sky-300 border border-sky-700">
             <ShieldCheck className="w-3.5 h-3.5" />
             <span>Public Consumer Water Portal</span>
           </div>
-          <h1 className="text-2xl font-bold text-white tracking-tight">
-            Namaste, {user?.name || 'Citizen'}!
+          <h1 className="text-xl font-bold text-white tracking-tight">
+            Welcome, {user?.name || 'Citizen'}
           </h1>
-          <p className="text-xs text-slate-300 max-w-xl">
-            Welcome to the official municipal water distribution advisory & grievance management portal. 
-            Track daily supply schedules, check potable water quality, and report pipeline issues with direct municipal oversight.
+          <p className="text-xs text-slate-300 max-w-2xl leading-relaxed">
+            Your local water updates, supply timings and service requests — all in one place. Check the latest information or let us know if something needs attention.
           </p>
         </div>
 
         <div className="flex items-center gap-3 w-full md:w-auto">
           <button
             onClick={() => setShowSubmitModal(true)}
-            className="flex-1 md:flex-none flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs shadow-lg shadow-emerald-600/30 transition-all cursor-pointer"
+            className="flex-1 md:flex-none flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-[#176b57] hover:bg-[#125746] text-white font-semibold text-sm shadow-sm transition-colors cursor-pointer"
           >
             <Plus className="w-4 h-4" />
             <span>Report Water Problem</span>

@@ -1,47 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+  color: #243247;
+  background: #f5f7fa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --ink: #1d2d44;
+  --muted: #64748b;
+  --line: #e4e9f0;
+  --paper: #ffffff;
+  --canvas: #f5f7fa;
+  --blue: #2f669d;
+}
+
 @layer base {
-  body {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    color-scheme: dark;
-  }
+  html { min-width: 320px; background: var(--canvas); }
+  body { margin: 0; min-width: 320px; min-height: 100vh; color: #243247; background: var(--canvas); font-family: 'DM Sans', 'Segoe UI', sans-serif; }
+  button, input, select, textarea { font: inherit; }
+  button { -webkit-tap-highlight-color: transparent; }
+  h1, h2, h3, h4 { font-family: 'Manrope', 'DM Sans', sans-serif; }
 }
 
-/* Custom modern scrollbars */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+/* Shared light municipal workspace styling. These rules keep the existing pages and API-driven components intact. */
+.app-navbar { background: rgba(255,255,255,.96); border-color: var(--line); box-shadow: 0 1px 2px rgba(22, 40, 65, .025); }
+.brand-mark { background: #315f8e; box-shadow: 0 4px 10px rgba(49,95,142,.14); }
+.app-sidebar { background: #fff; border-right: 1px solid var(--line); }
+.app-nav-item { color: #637187; }
+.app-nav-item:hover:not(.is-active) { color: #243e5b; background: #f5f8fb; }
+.app-nav-item.is-active { color: #285b8c; background: #edf4fb; box-shadow: inset 3px 0 #3d78ae; font-weight: 700; }
+
+/* Re-map the original dark utility surfaces to a restrained light palette. */
+.bg-slate-950, .bg-slate-950\/90, .bg-slate-950\/80, .bg-slate-950\/60, .bg-slate-950\/50, .bg-slate-950\/40,
+.bg-slate-900, .bg-slate-900\/95, .bg-slate-900\/90, .bg-slate-900\/80, .bg-slate-900\/70, .bg-slate-900\/60, .bg-slate-900\/50,
+.bg-slate-800, .bg-slate-800\/80 { background-color: #fff !important; }
+.bg-slate-100 { background-color: #f1f5f9 !important; }
+.border-slate-900, .border-slate-800, .border-slate-700, .border-slate-600 { border-color: #e2e8f0 !important; }
+.text-slate-100, .text-slate-200 { color: #26364b !important; }
+.text-slate-300 { color: #526277 !important; }
+.text-slate-400 { color: #68788d !important; }
+.text-slate-500 { color: #77869a !important; }
+.text-white:not(button):not(a):not(button *):not(a *) { color: #1e2e43 !important; }
+
+/* Remove near-black decorative gradients and oversized dark shadows for a more considered interface. */
+[class*="from-slate-950"], [class*="from-slate-900"], [class*="via-sky-950"], [class*="to-slate-900"], [class*="to-slate-950"] {
+  background-image: none !important;
+}
+.shadow-2xl, .shadow-xl, .shadow-lg { box-shadow: 0 3px 12px rgba(25, 45, 70, .045) !important; }
+button { transition: background-color .16s ease, border-color .16s ease, color .16s ease; }
+:focus-visible { outline: 2px solid #8db6d8; outline-offset: 2px; }
+.rounded-3xl { border-radius: 18px !important; }
+.rounded-2xl { border-radius: 14px !important; }
+
+/* Forms and data surfaces */
+input, select, textarea { color: #26364b; }
+input::placeholder, textarea::placeholder { color: #98a4b4; }
+input:focus, select:focus, textarea:focus { outline-color: #8db6d8; }
+
+/* Leaflet controls and popups remain legible on the map. */
+.leaflet-container { background: #eef2f6 !important; font-family: 'DM Sans', sans-serif; }
+.leaflet-popup-content-wrapper { background: #fff !important; color: #243247 !important; border: 1px solid #e3e9f0; border-radius: 10px !important; box-shadow: 0 8px 24px rgba(20, 40, 65, .13) !important; padding: 2px !important; }
+.leaflet-popup-tip { background: #fff !important; }
+.leaflet-control-zoom a, .leaflet-bar a { color: #334a63 !important; border-color: #e2e8f0 !important; }
+.leaflet-bar { border: 1px solid #e2e8f0 !important; box-shadow: 0 2px 8px rgba(20,40,65,.08) !important; }
+
+/* Fine, quiet scrollbars */
+::-webkit-scrollbar { width: 7px; height: 7px; }
+::-webkit-scrollbar-track { background: #f5f7fa; }
+::-webkit-scrollbar-thumb { background: #d3dbe5; border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: #b6c2d1; }
+
+@media (max-width: 760px) {
+  .app-sidebar { width: 66px; }
+  .app-sidebar .app-nav-item { justify-content: center; padding: 11px 8px; }
+  .app-sidebar .app-nav-item span, .app-sidebar > div:first-child > div:first-child p:not(:first-child), .app-sidebar > div:last-child { display: none; }
+  .app-sidebar > div:first-child { padding: 12px 7px; }
+  .app-sidebar > div:first-child > div:first-child { padding: 8px 0 12px; text-align: center; }
 }
 
-::-webkit-scrollbar-track {
-  background: #020617;
+/* Muted surfaces used by the original pages, now tuned for the light palette. */
+.bg-slate-800\/40, .bg-slate-800\/50, .bg-slate-800\/80, .bg-slate-700 { background-color: #f1f5f9 !important; }
+.bg-sky-950, .bg-sky-950\/60, .bg-sky-950\/50, .bg-sky-950\/40, .bg-sky-950\/30,
+.bg-sky-900, .bg-sky-900\/60, .bg-sky-900\/40, .bg-blue-950, .bg-blue-950\/80, .bg-blue-950\/20,
+.bg-indigo-950, .bg-purple-950, .bg-emerald-950, .bg-amber-950, .bg-red-950, .bg-rose-950 {
+  background-color: #eef4f9 !important;
 }
+.border-sky-900\/40, .border-sky-800, .border-sky-800\/60, .border-sky-800\/50, .border-blue-800, .border-blue-800\/40,
+.border-emerald-800, .border-amber-800, .border-red-800, .border-purple-800\/60 { border-color: #d8e4ef !important; }
+.text-sky-400, .text-sky-300, .text-sky-200, .text-blue-400, .text-blue-300 { color: #356b9b !important; }
+.text-emerald-400, .text-emerald-300 { color: #28785f !important; }
+.text-amber-400, .text-amber-300 { color: #946510 !important; }
+.text-rose-400, .text-red-400, .text-red-300 { color: #b54747 !important; }
+.text-purple-400, .text-purple-300 { color: #7353a5 !important; }
 
-::-webkit-scrollbar-thumb {
-  background: #1e293b;
-  border-radius: 9999px;
-}
 
-::-webkit-scrollbar-thumb:hover {
-  background: #334155;
-}
-
-/* Leaflet dark theme tweaks */
-.leaflet-container {
-  background-color: #020617 !important;
-  font-family: inherit;
-}
-
-.leaflet-popup-content-wrapper {
-  background: #ffffff !important;
-  color: #0f172a !important;
-  border-radius: 14px !important;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5) !important;
-  padding: 2px !important;
-}
-
-.leaflet-popup-tip {
-  background: #ffffff !important;
-}
+/* Keep the citizen greeting banner dark even while the shared dashboard surfaces use a light palette. */
+.citizen-welcome-banner { background-color: #172033 !important; border-color: #2a3b52 !important; }
+.citizen-welcome-banner .citizen-welcome-title { color: #ffffff !important; }
+.citizen-welcome-banner .citizen-welcome-description { color: #cbd5e1 !important; }
+.citizen-welcome-banner .citizen-welcome-badge { background-color: #273449 !important; color: #a7f3d0 !important; border: 1px solid #40516a !important; }
